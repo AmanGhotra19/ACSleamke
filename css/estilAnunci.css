@@ -1,0 +1,193 @@
+
+.contenidorAnunci2 {
+    width: 350px;
+    height: 300px;
+    background-color: #edfffb;
+    overflow: hidden;
+
+
+}
+
+.cartell {
+    width: 350px;
+    height: 300px;
+    background-color: #edfffb;
+    overflow: hidden;
+}
+
+.infoAnun2 {
+    width: 350px;
+    height: 0px;
+    background-color: #5d707f;
+    overflow: hidden;
+}
+
+.imag {
+    display: block;
+    margin: 70px auto;
+    width: 250px;
+    height: 145px;
+}
+p.titol {
+    margin: 5px;
+    font-size: 1.1em;
+    color: #66ced6;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+p.mest {
+    color: white;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.linc {
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: #edfffb;
+    font-size: 0.8em;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contenidorAnunci2:hover .cartell {
+    height: 210px;
+}
+
+.contenidorAnunci2:hover .infoAnun2 {
+    height: 90px;
+    transition: height 0.5s;
+}
+
+.contenidorAnunci2:hover .imag {
+    margin: 30px auto;
+    transition: margin 0.5s;
+}
+
+.anunci3{
+    width: 350px;
+    height: 300px;
+    background-color: yellow;
+
+}
+.imaAnunci3{
+    width: 100%;
+    height: 50%;
+    background-color: skyblue;
+}
+.infoAnunci3{
+    width: 100%;
+    height: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+}
+.infoAnunci3 h3{
+  font-family: 'Special Elite', cursive;
+    font-size: 1.8em;
+    margin-left: 10px;
+    line-height: 1.5em;
+}
+.infoAnunci3 p{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.imaAnunci3 img{
+    width: 100%;
+    height: 100%;
+}
+.logoEmpresa{
+    width: 60px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.logoAnunci3 img{
+    width: 100%;
+    object-fit: contain
+}
+.botoAnunci3{
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: black;
+    font-size: 2em;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 100px;
+    text-align: center;
+    width: 250px;
+}
+.anunciConte{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    background-color: aqua;
+    position: relative;
+
+}
+.anunciC1{
+    width: 350px;
+    height: 300px;
+    background-color: turquoise;
+    position: absolute;
+    margin: 10px;
+    left: 1%;
+    overflow: hidden;
+
+
+}
+.anunciC2{
+    width: 350px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    overflow: hidden;
+    margin: 10px;
+    left: 38%;
+
+}
+.anunciC3{
+    width: 350px;
+    height: 300px;
+    background-color: rebeccapurple;
+    position: absolute;
+    margin: 10px;
+    right: 1%;
+
+}
+@media(max-width:1650px){
+    .anunciC1{
+    width: 250px;
+    height: 300px;
+
+
+
+}
+.anunciC2{
+    width: 250px;
+    height: 300px;
+
+
+}
+.anunciC3{
+    width: 250px;
+    height: 300px;
+
+
+}
+}
+
+

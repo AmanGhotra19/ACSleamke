@@ -1,0 +1,95 @@
+header{
+    width:36px;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+
+}
+header label:hover{
+    cursor: pointer;
+}
+.menuHamburguesa ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    display: none;
+}
+.menuHamburguesa li{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid white;
+}
+.menuHamburguesa li:hover{
+    background: rgba(0,0,0,0.3);
+}
+.menuHamburguesa li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menuHamburguesa ul li ul{
+    position: absolute;
+    display: none;
+    background: red;
+
+}
+.menuHamburguesa ul ul li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.menuHamburguesa ul li:hover ul{
+    display: block;
+}
+.menuHamburguesa ul li ul li{
+    width: 100%;
+    height: 55px;
+
+}
+#btn-menu:checked~.menuHamburguesa{
+        margin: 0px;
+    visibility: visible;
+
+}
+@media(max-width:970px){
+    header label{
+        display: block;
+    }
+    .menuHamburguesa{
+        position: absolute;
+        background: #000;
+        width: 250px;
+        margin-left: 250px;
+        visibility: hidden;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    .menuHamburguesa ul{
+        flex-direction: column;
+        display: block;
+    }
+    .menuHamburguesa li{
+        border-top: 2px solid white;
+    }
+    .menuHamburguesa ul li ul{
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        width: 100%;
+    }
+    .menuHamburguesa ul li:hover ul{
+        height: auto;
+        max-height: 100%;
+        transition: all 0.5s;
+    }
+
+
+}

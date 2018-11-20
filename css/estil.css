@@ -1080,7 +1080,7 @@ p.mest {
 
 }
 }*/
-@media(max-width:970px) {
+@media(max-width:1070px) {
     .principal {
         display: none;
     }
@@ -1133,7 +1133,7 @@ p.mest {
 
 }
 
-@media(min-width:970px) {
+@media(min-width:1070px) {
     .menu2 {
         display: none;
     }

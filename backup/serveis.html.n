@@ -6,6 +6,7 @@
     <title>Aman</title>
     <link rel="stylesheet" href="./css/estil.css">
     <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--   <link rel="stylesheet" href="./css/estilAnunci.css">
      <link rel="stylesheet" href="./css/estilMenuHam.css">-->
     <link rel="icon" type="image/png" href="./images/fv1.png">
@@ -82,7 +83,7 @@
                     <span class="tags">Welcome to My WebSite</span>
                     <!--<h3 class="hima">Computer & Laptop Repairs</h3>
                     <br>--><br>
-                    <p class="pima">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla maiores, sapiente, asperiores, nam magnam error voluptatibus deleniti dignissimos consequuntur corrupti odit!</p>
+                    <p class="pima">ACS provide Repairs and Upgrades to Desktop Computers and Laptops for Businesses and Home Users.</p>
                 </div>
                 <div class="articlesCon">
                     <span class="tags">HOLA</span>
@@ -148,7 +149,7 @@
                 </div>
                    </div>
                 </div>
-                <div class="anunciC1">
+                <div class="anunciC2">
                     <div class="anunciColumna2">
                    <div class="contenidorAnunci2">
                     <div class="cartell">
@@ -163,7 +164,7 @@
                 </div>
                </div>
                 </div>
-                <div class="anunciC1">
+                <div class="anunciC3">
                     <div class="anunci3">
                     <div class="imaAnunci3">
                         <img src="./images/1.png" alt="">
@@ -214,10 +215,6 @@
                     </div>
                     <div class="fila">
                         <img src="./images/instagram.png" alt="">
-                        <label>Follow us on Instagram</label>
-                    </div>
-                    <div class="fila">
-                        <img src="./images/whatsapp.png" alt="">
                         <label>Follow us on Instagram</label>
                     </div>
 

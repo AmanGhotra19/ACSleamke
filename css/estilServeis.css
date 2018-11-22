@@ -649,7 +649,7 @@ p.mest {
 
 .articles {
     width: 90%;
-    height: 25%;
+    height: 20%;
     background-color: white;
     position: absolute;
 }
@@ -660,12 +660,12 @@ p.mest {
 }
 
 #ar_2 {
-    top: 30%;
+    top: 28%;
     right: 5%;
 }
 
 #ar_3 {
-    top: 56%;
+    top: 52%;
     right: 5%;
 }
 
@@ -677,10 +677,6 @@ p.mest {
 .imatge {
     width: 25%;
     height: 100%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: auto 10px;
-    display: block;
 
 }
 
@@ -711,7 +707,7 @@ p.mest {
 }
 
 .size:hover {
-   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-color: yellow;
 }
 
 .hima {
@@ -724,10 +720,6 @@ p.mest {
     text-align: justify;
     font-size: 125%;
     margin: 0 12px;
-}
-.hrEs{
-
-    border: 0; height: 0; box-shadow: 0 1px 5px 1px purple;
 }
 
 /*FOOTER*/

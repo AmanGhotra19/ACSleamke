@@ -250,6 +250,7 @@ header label:hover {
     position: relative;
     object-fit: contain;
 }
+
 .articlesCon {
     width: 100%;
     background-color: white;
@@ -266,9 +267,10 @@ header label:hover {
 .anunci {
     width: 100%;
     /*height: 400px;*/
-    height: 100%;
+    height: auto;
     background-color: black;
     position: relative;
+    margin-top: 5%;
 
 
 }
@@ -277,7 +279,7 @@ header label:hover {
     width: 100%;
     background-color: black;
     /*margin: 70px auto 0;*/
-/*
+    /*
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -525,27 +527,6 @@ p.mest {
 
 
 }
-/*
-.anunciC2 {
-    width: 350px;
-    height: 300px;
-    background-color: blue;
-    position: absolute;
-    overflow: hidden;
-    margin: 10px;
-    left: 38%;
-
-}
-
-.anunciC3 {
-    width: 350px;
-    height: 300px;
-    background-color: rebeccapurple;
-    position: absolute;
-    margin: 10px;
-    right: 1%;
-
-}*/
 
 .button {
     position: absolute;
@@ -635,7 +616,7 @@ p.mest {
 
 .articlesPrin {
     width: 100%;
-    height: 850px;
+    height: 750px;
     background-color: aqua;
 
 }
@@ -643,6 +624,7 @@ p.mest {
 .titul {
     width: 100%;
     height: auto;
+    position: relative;
     background-color: white;
 }
 
@@ -779,6 +761,18 @@ p.mest {
     margin-top: 10px;
     margin-left: 20px;
     color: #c7c7c7;
+    cursor: pointer;
+}
+
+.columna2 a {
+    text-decoration: none;
+}
+
+.filaColumna3Map {
+    width: 100%;
+    height: 100%;
+
+    border: 0;
 }
 
 .columna3 {
@@ -860,6 +854,18 @@ p.mest {
 }
 */
 
+@media(max-width: 1790px) {
+    .anunciConte {
+        width: 80%;
+    }
+}
+
+@media(max-width: 1565px) {
+    .anunciConte {
+        width: 740px;
+    }
+}
+
 @media(max-width: 1100px) {
     .contenidorBody {
         flex-wrap: wrap;
@@ -877,19 +883,19 @@ p.mest {
         margin-left: auto;
     }
 
-
-}
-@media(max-width:900px) {
-    .contenidor {
-        /*margin: auto 60px;*/
-        width: 90%;
-        height: auto;
+    .anunciConte {
+        width: 370px;
     }
 
-    .footer {
-        bottom: 0px;
+
+}
+
+@media(min-width:1070px) {
+    .menu2 {
+        display: none;
     }
 }
+
 
 
 @media(max-width:1070px) {
@@ -945,19 +951,35 @@ p.mest {
 
 }
 
-@media(min-width:1070px) {
-    .menu2 {
-        display: none;
+@media(max-width:900px) {
+    .contenidor {
+        /*margin: auto 60px;*/
+        width: 90%;
+        height: auto;
+    }
+
+    .footer {
+        bottom: 0px;
     }
 }
-@media(max-width:815px){
-     .anunciC2 {
+
+@media(max-width:815px) {
+    .anunciC2 {
         left: 35%;
-         margin: 10px auto;
+        margin: 10px auto;
     }
 }
-@media(max-width:620px){
-    .anunciC2{
+
+@media(max-width:620px) {
+    .anunciC2 {
         display: none;
+    }
+
+    .logo {
+        left: 2%;
+    }
+
+    .menu2 {
+        right: 25%;
     }
 }
